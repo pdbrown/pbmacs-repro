@@ -7,3 +7,7 @@
 ;; Bootstrap straight.el.
 (load (expand-file-name "straight/repos/straight.el/bootstrap.el"
                         straight-base-dir))
+
+
+;; Cider repro
+(straight-use-package 'cider)
